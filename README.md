@@ -1,5 +1,5 @@
 
-# Animanager Server by [@medzdev](https://www.github.com/medzdev)
+# Animanager Records by [@medzdev](https://www.github.com/medzdev)
 
 That repository stores the Animanager's information records microsservice. The main goal of this application is to manage the operations with records about the animals, caregivers and employees of the company.
 
@@ -8,7 +8,9 @@ The key responsibilities of that service:
 - Deploy HTTP endpoints to create, update, read and delete information records of animals, caregivers and employees of the hospital.
 - Manage those informations in a persistent structured database.
 
-
+## Observations
+- To run in a persistent database, you should provision it first.
+- You should define an application.properties file that suits the project needs. Check the [gist](https://gist.github.com/medzdev/6a3085931a69fe29e3acc888051fe129) to get a copy of that.
 
 ## Run Locally
 
@@ -35,9 +37,6 @@ Run the image in a container
 ```bash
   docker run --publish 8080:8080 animanager-server
 ```
-
-**OBS: To run in a persistent database, you should provision it first.**
-
 
 ## API Reference
 
