@@ -1,5 +1,5 @@
 
-# Animanager Server by [@medzdev](https://www.github.com/medzdev)
+# Animanager Records by [@medzdev](https://www.github.com/medzdev)
 
 That repository stores the Animanager's information records microsservice. The main goal of this application is to manage the operations with records about the animals, caregivers and employees of the company.
 
