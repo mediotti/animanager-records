@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Profile;
 import java.util.Arrays;
 
 @Configuration
-@Profile("prod")
+@Profile("test")
 public class TestConfig implements CommandLineRunner {
     @Autowired
     private InformationRecordsRepository informationRecordsRepository;
