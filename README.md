@@ -45,24 +45,24 @@ Run the image in a container
 #### Get all information records stored in the database.
 
 ```http
-GET /animanager/information_records
+GET /animanager/records/human
 ```
 
 #### Get an specific record 
 
 ```http
-GET /animanager/information_records/${id}
+GET /animanager/records/human/${id}
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `UUID` | **Required**. Id of an individual information record to fetch |
+| Parameter | Type      | Description                                                   |
+| :-------- |:----------|:--------------------------------------------------------------|
+| `id`      | `UUID`    | **Required**. Id of an individual information record to fetch |
 
 
 #### Insert a new human record (caregiver/employee)
 
 ```http
-POST /animanager/information_records/
+POST /animanager/records/human
 ```
 
 | Parameter             | Type           | Description(All of them are Required)                                                                                    |
