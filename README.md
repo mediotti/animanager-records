@@ -46,7 +46,7 @@ Run the image in a container
   GET /animanager/information_records
 ```
 
-#### Get item 
+#### Get an specific record 
 
 ```http
   GET /animanager/information_records/${id}
@@ -57,7 +57,7 @@ Run the image in a container
 | `id`      | `UUID` | **Required**. Id of an individual information record to fetch |
 
 
-#### Post item
+#### Insert a new record
 
 ```http
   POST /animanager/information_records/
