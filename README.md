@@ -45,13 +45,13 @@ Run the image in a container
 #### Get all information records stored in the database.
 
 ```http
-  GET /animanager/information_records
+GET /animanager/information_records
 ```
 
 #### Get an specific record 
 
 ```http
-  GET /animanager/information_records/${id}
+GET /animanager/information_records/${id}
 ```
 
 | Parameter | Type     | Description                       |
@@ -62,7 +62,7 @@ Run the image in a container
 #### Insert a new human record (caregiver/employee)
 
 ```http
-  POST /animanager/information_records/
+POST /animanager/information_records/
 ```
 
 | Parameter             | Type           | Description(All of them are Required)                                                                                    |
@@ -80,13 +80,13 @@ Run the image in a container
 ### Get all information records stored in the database.
 
 ```http
-  GET /animanager/records/animal
+GET /animanager/records/animal
 ```
 
 #### Get an specific record
 
 ```http
-  GET /animanager/records/animal/${id}
+GET /animanager/records/animal/${id}
 ```
 
 | Parameter | Type      | Description                                                   |
