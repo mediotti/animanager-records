@@ -28,8 +28,6 @@ public class ProdConfig implements CommandLineRunner {
         InformationRecords ir2 = new InformationRecords(null, Role.EMPLOYEE, "Giulia", "Pugliesi", "11999999999", "89999999999", "99999999", "81", null);
         informationRecordsRepository.saveAll(Arrays.asList(ir1, ir2));
 
-
-
         AnimalInformationRecords pt1 = new AnimalInformationRecords(null, Gender.MALE, "Brutus", "4", "Dog", "English Bulldog", true, "none", "none", ir1);
         AnimalInformationRecords pt2 = new AnimalInformationRecords(null, Gender.FEMALE, "Luna", "13", "Dog", "Poodle", true, "none", "none", ir2);
         animalInformationRecordsRepository.saveAll(Arrays.asList(pt1, pt2));
