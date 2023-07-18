@@ -1,6 +1,6 @@
 package com.animanager.records.resources;
 
-import com.animanager.records.entities.InformationRecords;
+import com.animanager.records.entities.human.InformationRecords;
 import com.animanager.records.service.InformationRecordsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

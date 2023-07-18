@@ -1,6 +1,6 @@
-package com.animanager.records.entities;
+package com.animanager.records.entities.human;
 
-import com.animanager.records.entities.dto.RequestInformationRecordsDTO;
+import com.animanager.records.entities.animal.AnimalInformationRecords;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

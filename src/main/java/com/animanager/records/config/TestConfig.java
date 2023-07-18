@@ -1,9 +1,9 @@
 package com.animanager.records.config;
 
-import com.animanager.records.entities.AnimalInformationRecords;
-import com.animanager.records.entities.Gender;
-import com.animanager.records.entities.InformationRecords;
-import com.animanager.records.entities.Role;
+import com.animanager.records.entities.animal.AnimalInformationRecords;
+import com.animanager.records.entities.animal.Gender;
+import com.animanager.records.entities.human.InformationRecords;
+import com.animanager.records.entities.human.Role;
 import com.animanager.records.repositories.AnimalInformationRecordsRepository;
 import com.animanager.records.repositories.InformationRecordsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +25,7 @@ public class TestConfig implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         InformationRecords ir1 = new InformationRecords(null, Role.CAREGIVER, "Gabriel", "Mediotti", "11999999999", "99999999999", "99999999", "845, ap92", null);
-        InformationRecords ir2 = new InformationRecords(null, Role.EMPLOYEE, "Giulia", "Pugliesi", "11999999999", "89999999999", "99999999", "81", null);
+        InformationRecords ir2 = new InformationRecords(null, Role.NURSE, "Giulia", "Pugliesi", "11999999999", "89999999999", "99999999", "81", null);
         informationRecordsRepository.saveAll(Arrays.asList(ir1, ir2));
 
 

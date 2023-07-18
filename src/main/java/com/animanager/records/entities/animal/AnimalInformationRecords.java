@@ -1,6 +1,6 @@
-package com.animanager.records.entities;
+package com.animanager.records.entities.animal;
 
-import com.animanager.records.entities.dto.RequestAnimalInformationRecordsDTO;
+import com.animanager.records.entities.human.InformationRecords;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

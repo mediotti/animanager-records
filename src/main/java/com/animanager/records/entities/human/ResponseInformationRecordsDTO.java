@@ -1,7 +1,7 @@
-package com.animanager.records.entities.dto;
+package com.animanager.records.entities.human;
 
-import com.animanager.records.entities.InformationRecords;
-import com.animanager.records.entities.Role;
+import com.animanager.records.entities.human.InformationRecords;
+import com.animanager.records.entities.human.Role;
 
 import java.util.UUID;
 

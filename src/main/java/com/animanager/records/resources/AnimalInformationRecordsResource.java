@@ -1,7 +1,7 @@
 package com.animanager.records.resources;
 
 
-import com.animanager.records.entities.AnimalInformationRecords;
+import com.animanager.records.entities.animal.AnimalInformationRecords;
 import com.animanager.records.service.AnimalInformationRecordsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
