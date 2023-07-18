@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping(value = "/animanager/records")
+@RequestMapping(value = "/animanager/records/human")
 public class InformationRecordsResource {
     @Autowired
     private InformationRecordsService informationRecordsService;
