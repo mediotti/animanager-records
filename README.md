@@ -17,25 +17,25 @@ The key responsibilities of that service:
 Clone the project
 
 ```bash
-  git clone https://github.com/medzdev/animanager-server
+  git clone https://github.com/medzdev/animanager-records
 ```
 
 Go to the project directory
 
 ```bash
-  cd animanager-server
+  cd animanager-records
 ```
 
 Build locally
 
 ```bash
-  docker build --tag=animanager-server:latest .
+  docker build --tag=animanager-records:latest .
 ```
 
 Run the image in a container
 
 ```bash
-  docker run --publish 8080:8080 animanager-server
+  docker run --publish 8080:8080 animanager-records
 ```
 
 ## API Reference
